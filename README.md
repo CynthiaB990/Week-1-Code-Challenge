@@ -1,25 +1,38 @@
-# Week-1-Code-Challenge
-Challenge 1: Student Grade Generator (Toy Problem)
-Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade as follows: 
+This README.md file contains information on the projects for week 1 code challenge lab
+=======================================================================
+## **Table Of Contents.**
+1. Student Grade Calculator.
+2. Speed Detector.
+3. Net Salary Calculator.
+4. Author
+5. License
 
-A > 79, B > 60 to 79, C > 59 to 49, D > 40 to 49, E > less 40.
 
- 
+### 1. Student Grade Calculator
+This program that the user to input student marks. The input should be between 0 and 100.It then returns output to the HTML page on the grade the student has gotten. I've added a button and input element to the HTML file to assist in user interactivity.
 
-Challenge 2: Speed Detector (Toy Problem)
-Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+### Setup
+This program is a simple program consist if a HTML,CSS and JavaScript file for interactivity. I've included some simple styling in the CSS file.
 
-For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+In the JavaScript file I've included a function ***calculateGrade()*** into which I've added an click event from my button tag in the HTML file. The function includes if else statements for different grades and outputs to the page through to .InnerHTML property.
 
- 
 
-Challenge 3: Net Salary Calculator (Toy Problem)
-Given the basic salary and benefits of an employee, write a program that would calculate the Payee Tax, NHIF, NSSF Deductions and net salary.
+### 2. Speed Detector
+This program takes as input the speed of a car e.g80. If the speed is less than 70, it prints *“Ok”*. Otherwise, for every 5 km/s above the speed limit (70), it gives the driver one demerit point and prints the total number of demerit points.
 
-NB: Use KRA, NHIF, and NSSF values provided in the link below.
+### Setup
+In this program I've also included standard HTML,CSS and JavaScript files and linked them to my HTML file.
 
-https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.  
+In my script.js file is as simple function ***(checkSpeed)*** that I've linked to the button and input elements using an event that triggers on click and then outputs to the innerHTML through a div element if id result.
 
-https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
+### 3. Net Salary Calculator
+This program accepts basic salary and benefits of an employee,calculates and outputs the Payee Tax, NHIF, NSSF Deductions and net salary and outputs to the page.
 
- 
+### Setup
+This program has similar setup to the one above in that I've included a HTML,CSS and JavaScript files. The HTML file has label elements that contains input text boxes for basic salary and benefits and a button element that triggers a function ***calculateSalary*** which calculates basic salary and appropriate deductions using if else statements and finally calculates the net salary after making appropriate deductions from the basic salary and outputs to the DOM through the innerHTML property.
+
+### 4. Author
+**[CYNTHIA BARASA](https://github.com/CynthiaB990)**
+
+### 5. License
+The source code for the lab is licensed under the MIT license, which you can find in the LICENSE.txt file.
