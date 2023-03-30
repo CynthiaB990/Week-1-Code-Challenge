@@ -1,4 +1,4 @@
-#Week 1 code challenge lab
+Week 1 code challenge lab
 =======================================================================
 ## **Table Of Contents.**
 1. Student Grade Calculator.
