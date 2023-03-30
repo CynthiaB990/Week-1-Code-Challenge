@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Toy Problem</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>WEEK ONE CODE CHALLENGE</h1>
+	<h2>Student Grade Calculator</h2>
+	<form>
+		<label for="marks">Enter the student's marks (between 0 and 100):</label>
+		<input type="number" id="marks" name="marks" min="0" max="100" required>
+		<button type="submit" onclick="calculateGrade()">Submit</button>
+	    <p id="result"></p>
+    </form>
+
+    <h2>Speed Checker</h2>
+    <form>
+        <label for="speed">Enter speed (in km/h):</label>
+        <input type="number" id="speed" name="speed" required>
+        <button type="button" onclick="checkSpeed()">Check speed</button>
+        <p id="results"></p>
+    </form>
+
+    <h2>Salary Calculator</h2>
+    <form>
+        <label for="basic-salary">Basic Salary:</label>
+        <input type="number" id="basic-salary" name="basic-salary" required>
+        <br>
+        <br>
+        <label for="benefits">Benefits:</label>
+        <input type="number" id="benefits" name="benefits">
+        <br>
+        <br>
+        <button type="button" onclick="calculateSalary()">Calculate</button>
+        <div id="output"></div>
+    </form>
+    <script src="./src/index.js"></script>
+    <script src="./src/main.js"></script>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
